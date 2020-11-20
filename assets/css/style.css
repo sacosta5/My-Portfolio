@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #fff;
+    font-size: 250%;
+    padding: 20px 35px;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    top:0;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+header nav ul li a {
+    color: #fff;
+    font-size: 25px;
+    flex-direction: row;
+    padding: 10px 15px;
+}
+
+/*Subtitles*/
+.subtitle {
+    margin: 1px auto;
+    background-image: linear-gradient(purple, white)
+}
+.subtitle h1 {
+    color: white;
+    font-size: 350%;
+    padding: 30px 40px;
+    text-align: center;
+}
+.subtitle p {
+    text-align: center;
+    font-size: 130%;
+}
+/*About Me section*/
+.about-me {
+    padding: 15px 15px;
+    margin: 150px auto;
+    display: flex;
+}
+.about-me h2 {
+    font-size: 300%;
+    padding: 10px 40px 10px 40px;
+    text-align: justify;
+    border-right: solid;
+    border-color: black;
+}
+.about-me p {
+    text-align: center;
+    display: inline;
+    float: left;
+}
+/*My work section*/
+.my-work {
+    padding: 50px 40px 10px 50px;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.my-work h2 {
+    font-size: 300%;
+    border-bottom: solid;
+    border-color: black;
+    padding: 0 10px 0 10px;
+}
+.run-buddy img {
+    width: 20%;
+    border-radius: 8px
+}
+.coming-soon img {
+    width: 100%;
+}
+.coming-soon-2 img {
+    width: 100%;
+}
+.coming-soon-3 img {
+    width: 100%;
+}
+/* Contact Me Section */
+.contact-me {
+    padding: 30px 15px 20px 30px;
+    margin-top: 20%;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    background-image: linear-gradient(white, purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-me h2 {
+    color:white;
+}
+.contact-me p {
+    align-items: center;
+    border-bottom: solid;
+    align-items: center;
+}
+
+.contact-me a:visited {
+    color: black;
+    background-color: transparent;
+}
+.contact-me a:hover {
+    color: white;
+}
